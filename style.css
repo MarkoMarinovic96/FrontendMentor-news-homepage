@@ -1,0 +1,170 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsla(35, 77%, 62%, 0.123);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: Inter;
+}
+
+.wraper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+.coverimg{
+  width: 100%;
+  height: 35vh;
+  
+}
+
+.preglednik{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 68%;
+  height: 40%;
+  margin-left: 15px;
+  
+}
+header{
+  flex-basis: 100%;
+  margin-top: 15px;
+  margin-left: 15px;
+margin-right: 15px;
+}
+
+
+header>nav{
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+}
+ul{
+  
+  list-style-type:none;
+  
+}
+li{
+  display: inline-block;
+  padding-left: 55px;
+}
+li>a{
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+li>a:active{
+  color: hsl(5, 85%, 63%);
+}
+
+.row-65{
+  flex-basis: 100%;
+  margin-top: 15px;
+}
+.text {
+  flex-basis: 100%;
+}
+.text>p{
+  color: hsl(236, 13%, 42%);
+  font-size: 20px;
+  
+}
+button{
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  margin-top: 25px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  letter-spacing: 3px;
+}
+button:active{
+  background-color:hsl(240, 100%, 5%) ;
+}
+
+.bigheading{
+  flex-basis: 100%;
+  font-size: 50px;
+  flex-basis: 70%;
+}
+.aside{
+  padding: 20px;
+  background-color: hsl(240, 100%, 5%);
+  flex-basis: 27%;
+  
+  margin-right: 15px;
+  
+}
+.aside>h1{
+  color: rgb(233, 171, 83);
+  padding-bottom: 25px;
+  font-weight: 800;
+}
+.aside>h3{
+  color: hsl(233, 8%, 79%);
+  padding-bottom: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.aside>h3:active{
+  color: rgb(233, 171, 83);
+  
+}
+.aside>p{
+  color: hsl(233, 8%, 79%);
+  padding-bottom: 10px;
+  
+  
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.row-100{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-basis: 100%;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: 15px;
+}
+.row-100>div{
+  display:flex;
+flex-direction:row;
+flex-wrap:nowrap;
+flex-basis: 31%;
+height: 15vh;
+}
+.row-100>div>img{
+  height: 17vh;
+}
+.row-100>div>div{
+  flex-basis: 100%;
+  padding-left: 20px;
+  height: 15vh;
+}
+.row-100>div>div>h1{
+  color: hsl(236, 13%, 42%);
+  padding-bottom: 10px;
+}
+.row-100>div>div>h3{
+  color: hsl(240, 100%, 5%);
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.row-100>div>div>h3:active{
+  color: hsl(5, 85%, 63%);
+
+}
+.row-100>div>div>p{
+  color: hsl(236, 13%, 42%);
+}
